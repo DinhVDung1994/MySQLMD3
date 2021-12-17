@@ -12,6 +12,7 @@ modify column StartDate date;
 insert into class(ClassName,StartDate,Status) values('A1','2008/12/20',1);
 insert into class(ClassName,StartDate,Status) values('A2','2008/12/22',1);
 insert into class(ClassName,StartDate,Status) values('B3',current_date,0);
+insert into class(ClassName,StartDate,Status) values('A1','2008/10/20',1);
 -- tao bang student
 create table student(
 StudentID int auto_increment primary key not null,
@@ -71,3 +72,32 @@ from student
 join mark on student.StudentID = mark.StudentID
 join subject on subject.SubID = mark.SubID
 where SubName = 'CF';
+-- Hiển thị tất cả các sinh viên có tên bắt đầu bảng ký tự ‘h’
+select *
+from student
+where StudentName like 'h%';
+-- Hiển thị các thông tin lớp học có thời gian bắt đầu vào tháng 12.
+select *
+from class
+where month(StartDate) = 10;
+-- Hiển thị tất cả các thông tin môn học có credit trong khoảng từ 3-5.
+select *
+from subject
+where Credit between 3 and 5;
+-- Thay đổi mã lớp(ClassID) của sinh viên có tên ‘Hung’ là 2.
+SET SQL_SAFE_UPDATES=0;
+UPDATE student
+SET ClassID=2
+WHERE StudentName = 'Hung';
+-- Hiển thị các thông tin: StudentName, SubName, Mark.
+-- Dữ liệu sắp xếp theo điểm thi (mark) giảm dần.
+-- nếu trùng sắp theo tên tăng dần.
+select StudentName,SubName,Mark
+from mark
+join student on student.StudentID = mark.StudentID
+join subject on subject.SubID = mark.SubID
+order by Mark desc,StudentName;
+
+
+
+
