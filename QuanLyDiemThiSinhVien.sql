@@ -114,7 +114,8 @@ order by year(NgaySinh);
 -- Câu 10: Liệt kê danh sách sinh viên được sắp xếp giảm dần theo HocBong
 select *
 from sinhvien
-order by HocBong;
+where HocBong like 'Co'
+order by PriceHB desc;
 --  Lập danh sách sinh viên có học bổng của khoa CNTT.
 select sinhvien.*,MaKhoa
 from sinhvien
