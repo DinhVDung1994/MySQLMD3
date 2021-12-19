@@ -73,4 +73,21 @@ FROM Student S join Mark M on S.StudentId = M.StudentId
 GROUP BY S.StudentId, S.StudentName
 HAVING AVG(Mark) >= ALL (SELECT AVG(Mark) FROM Mark GROUP BY Mark.StudentId);
 
+-- Hiển thị tất cả các thông tin môn học (bảng subject) có credit lớn nhất.
+select SubID,SubName,Credit,Status
+from subject
+where Credit = (select max(Credit) from subject);
+
+-- Hiển thị các thông tin môn học có điểm thi lớn nhất.
+select subject.*,mark.Mark
+from subject
+join mark on mark.SubID = subject.SubID
+where Mark = (select max(Mark) from mark);
+
+-- Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần
+select student.*,avg(Mark) as 'DiemTB'
+from student
+join mark on mark.StudentID = student.StudentID
+group by StudentID
+order by DiemTB desc;
 
