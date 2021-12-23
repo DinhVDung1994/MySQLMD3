@@ -4,38 +4,50 @@
     <meta charset="UTF-8">
     <title>Title</title>
 <style>
-    #main{
-        width: 700px;
-        height: 700px;
-        background: aquamarine;
-    }
-    #left{
-        width: 200px;
-        height: 700px;
-        background: orange;
-        float: left;
-        position: fixed;
-    }
-    #center{
-        width: 300px;
-        height: 900px;
-        background: cyan;
-        float: left;
-    }
-    #right{
-        width: 200px;
-        height: 700px;
-        background: yellow;
-        float: right;
-        position: fixed;
-    }
+select{
+    width: 100%;
+}
 </style>
 </head>
 <body>
-    <div id="main">
-        <div id="left">Bên Trái</div>
-        <div id="center">Ở Giữa</div>
-        <div id="right">Bên Phải</div>
+<form class="row" role="form">
+    <div class="form-group">
+        <label for="firstname" class="col-md-2 col-form-lable">First Name</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="firstname" placeholder="Enter first Name">
+        </div>
     </div>
+    <div class="form-group">
+        <label for="lastname" class="col-md-2 col-form-lable">Last Name</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="lastname" placeholder="Enter last Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="offset-sm-2 col-md-10">
+            <div class="checkbox">
+                <label><input type="checkbox">Remember Me</label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="offset-sm-2 col-md-10">
+            <button type="submit" class="btn btn-secondary">Sign in</button>
+        </div>
+    </div>
+    <div>
+        <label>Mutiple Select list</label>
+
+        <select multiple class = "form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+
+    </div>
+</form>
+
 </body>
 </html>
