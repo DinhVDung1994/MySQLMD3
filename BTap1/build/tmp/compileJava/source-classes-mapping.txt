@@ -1,0 +1,8 @@
+model/Product.java
+ model.Product
+DAO/ConnectionMySQL1.java
+ DAO.ConnectionMySQL1
+controller/ControllerProduct.java
+ controller.ControllerProduct
+DAO/CRUDProduct.java
+ DAO.CRUDProduct

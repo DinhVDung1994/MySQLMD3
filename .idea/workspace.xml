@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10a62503-8278-405f-bd34-9324ec531c0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BTap1/.idea/modules/BTap1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/java/DAO/CRUDNhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/java/DAO/ConnectionMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/java/controller/ControllEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/java/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/webapp/Home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTap1/src/main/webapp/editEmploye.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/Bai6CSS/.idea/Bai6CSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Controller/AccountServlet/AccountsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Controller/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/DAO/Account/AccountsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/DAO/CRUDDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/DAO/CRUDProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/DAO/ConnectionMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Model/Account/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Model/Account/TypeAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Model/Products/ProductDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Model/Products/ProductFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Model/Products/TypeProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Service/AccountsService/AccountsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/java/Service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/CreateProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/EditProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/FindProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/View/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showBo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showBun.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showCa.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showDoAnNhanh.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showDrink.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showGa.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showMonKhaiVi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/showPiza.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DanhSachKhachHang/.idea/modules/DanhSachKhachHang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoQuanLyNV/.idea/modules/DemoQuanLyNV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoQuanLyNV/.idea/modules/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimCook/.idea/modules/TimCook.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimCook/src/main/java/CookTim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebBanHangAn/.idea/modules/WebBanHangAn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MySQL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MySQL.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MySQL.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/build/libs/Calculate-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/build/libs/Calculate-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculate/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/src/main/java/Model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/src/main/webapp/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseMD3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CaseMD3/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ChuyenDoiTienTe/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ChuyenDoiTienTe/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ChuyenDoiTienTe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChuyenDoiTienTe/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10a62503-8278-405f-bd34-9324ec531c0e" name="Default Changelist" comment="" />
+      <created>1641435652239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641435652239</updated>
+      <workItem from="1641435656737" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

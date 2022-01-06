@@ -10,6 +10,7 @@
   <head>
     <title>$Title$</title>
   </head>
+
   <body>
   <form method="post" action="/PriceSale">
     <div>
